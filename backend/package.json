@@ -1,0 +1,20 @@
+{
+  "name": "backend",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun index.ts",
+    "hot": "bun --hot index.ts",
+    "watch": "bun --watch index.ts"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@elysiajs/html": "^0.6.0",
+    "elysia": "^0.6.17"
+  }
+}
